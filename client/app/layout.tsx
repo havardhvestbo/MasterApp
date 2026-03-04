@@ -9,8 +9,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "MasterApp | Thesis Dashboard",
-  description: "Master's thesis management dashboard.",
+  title: "Trondheim Reparasjonsguide",
+  description: "Finn og filtrer reparasjonsverksteder i Trondheim etter kategori og bydel.",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="nb">
       <body className={`${dmSans.variable} antialiased`}>{children}</body>
     </html>
   );
