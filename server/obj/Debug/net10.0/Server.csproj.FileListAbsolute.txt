@@ -8,9 +8,6 @@
 /Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/bin/Debug/net10.0/Server.pdb
 /Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/bin/Debug/net10.0/Microsoft.OpenApi.dll
-/Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/obj/Debug/net10.0/Server.csproj.AssemblyReference.cache
 /Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/obj/Debug/net10.0/rpswa.dswa.cache.json
 /Users/havardvestbo/Dokumenter/Studie/Master/Masteroppgave/Applications/MasterApp/MasterApp/server/obj/Debug/net10.0/Server.GeneratedMSBuildEditorConfig.editorconfig
