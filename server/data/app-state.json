@@ -1,0 +1,244 @@
+{
+  "thesis": {
+    "title": "Adaptive Decision Support (Final Draft)",
+    "studentName": "H\u00E5vard \u0026 Kevin",
+    "supervisorName": "Frode Heldahl",
+    "estimatedCompletionDate": "2026-12-20",
+    "overallCompletionPercent": 0,
+    "chapterProgress": [
+      {
+        "name": "Introduction",
+        "completionPercent": 92
+      },
+      {
+        "name": "Literature Review",
+        "completionPercent": 74
+      },
+      {
+        "name": "Methodology",
+        "completionPercent": 81
+      },
+      {
+        "name": "Results",
+        "completionPercent": 48
+      },
+      {
+        "name": "Discussion",
+        "completionPercent": 31
+      },
+      {
+        "name": "Conclusion",
+        "completionPercent": 18
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "ac50945f-f0f5-4f04-b6b8-f6f8e7f0a2a8",
+      "title": "Refine mixed-methods rationale paragraph",
+      "description": "Clarify triangulation rationale and add citation.",
+      "status": "In Progress",
+      "dueDate": "2026-03-06",
+      "isPriority": true,
+      "category": "Writing"
+    },
+    {
+      "id": "f1b77311-06ab-4538-96ea-f92864496cb9",
+      "title": "Tag interview transcripts for thematic coding",
+      "description": "Code interviews from pilot batch.",
+      "status": "Not Started",
+      "dueDate": "2026-03-09",
+      "isPriority": false,
+      "category": "Analysis"
+    },
+    {
+      "id": "ea0aaeb4-d713-4fcb-9c73-a7a99f6765f5",
+      "title": "Address supervisor notes on literature matrix",
+      "description": "Update matrix sections 2.1 to 2.4.",
+      "status": "Done",
+      "dueDate": "2026-03-03",
+      "isPriority": false,
+      "category": "Review"
+    },
+    {
+      "id": "3556fef9-afb2-412d-b2ff-4b95699b2322",
+      "title": "Prepare visual template for Results figures",
+      "description": "Create chart baseline for chapter 4.",
+      "status": "Blocked",
+      "dueDate": "2026-03-08",
+      "isPriority": true,
+      "category": "Design"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "9fce8b91-c03f-423b-bf88-b958167e8e44",
+      "title": "Supervisor meeting and feedback review",
+      "date": "2026-03-11",
+      "urgency": "medium",
+      "status": "Planned",
+      "taskId": null
+    }
+  ],
+  "activity": [
+    {
+      "id": "48f834a3-0345-4bec-86f7-086f5f6602e6",
+      "type": "edit",
+      "message": "Deleted milestone \u0022Submit Results chapter draft\u0022.",
+      "timestamp": "2026-03-04T13:43:11.482958+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "249c94ac-74ef-40fb-97b1-e16359f26a93",
+      "type": "edit",
+      "message": "Deleted task \u0022Finalize conclusions section\u0022.",
+      "timestamp": "2026-03-04T13:31:11.500145+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "83a50317-3ba3-4c07-be11-007c3490cb42",
+      "type": "edit",
+      "message": "Deleted milestone \u0022Submit full draft to supervisor\u0022.",
+      "timestamp": "2026-03-04T13:31:11.489772+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "97bf289f-1b3b-46f7-8581-64fad03ab877",
+      "type": "edit",
+      "message": "Removed a supervisor note.",
+      "timestamp": "2026-03-04T13:31:11.479419+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "57700001-6ea6-4d90-baa8-e2b7dfd2f62e",
+      "type": "edit",
+      "message": "Deleted resource \u0022Final submission checklist\u0022.",
+      "timestamp": "2026-03-04T13:31:11.468932+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "14cf4277-33cd-49d2-aade-81ce09e55c00",
+      "type": "upload",
+      "message": "Uploaded draft Draft_v1.0.pdf (v1.0). Notes: Ready for supervisor review",
+      "timestamp": "2026-03-04T13:31:11.457497+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "df58cab1-64ff-4994-a970-51437487b6be",
+      "type": "edit",
+      "message": "Updated dashboard settings.",
+      "timestamp": "2026-03-04T13:31:11.446369+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "ee7ba35b-4808-4d08-9cf1-193343676dd6",
+      "type": "edit",
+      "message": "Added resource \u0022Final submission checklist\u0022.",
+      "timestamp": "2026-03-04T13:31:11.427359+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "c1050325-065f-4b1d-ab0f-763d8c322e01",
+      "type": "comment",
+      "message": "Supervisor note: Great progress on the conclusions chapter.",
+      "timestamp": "2026-03-04T13:31:11.410235+00:00",
+      "author": "Dr. Ingrid Solheim"
+    },
+    {
+      "id": "d95f8b58-9361-49ff-ac32-1118262de505",
+      "type": "edit",
+      "message": "Updated milestone \u0022Submit full draft to supervisor\u0022.",
+      "timestamp": "2026-03-04T13:31:11.399055+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "a689011a-1cfa-4e5f-bdda-d58b8ba3bcf4",
+      "type": "edit",
+      "message": "Added milestone \u0022Submit full draft to supervisor\u0022.",
+      "timestamp": "2026-03-04T13:31:11.382913+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "b4343247-7ec1-4ce5-935c-8f76aef73984",
+      "type": "edit",
+      "message": "Updated task \u0022Finalize conclusions section\u0022 to Done.",
+      "timestamp": "2026-03-04T13:31:11.366935+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "f2a9c8d2-9079-4550-a845-d21204776bf3",
+      "type": "edit",
+      "message": "Added task \u0022Finalize conclusions section\u0022.",
+      "timestamp": "2026-03-04T13:31:11.344189+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "7818370f-a682-4a0f-996e-3c120ed6f937",
+      "type": "edit",
+      "message": "Updated thesis metadata.",
+      "timestamp": "2026-03-04T13:31:11.328958+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "e0b6cc2a-fe33-4b4b-9f18-3552f2f665a6",
+      "type": "edit",
+      "message": "Revised Methodology section and clarified the data collection protocol.",
+      "timestamp": "2026-03-04T11:31:10.959525+00:00",
+      "author": "Havard Vestbo"
+    },
+    {
+      "id": "40e73792-ef66-4a66-8f80-47f264f19475",
+      "type": "comment",
+      "message": "Supervisor comment: tighten the framing around sustainability KPIs.",
+      "timestamp": "2026-03-04T05:31:10.959555+00:00",
+      "author": "Dr. Ingrid Solheim"
+    },
+    {
+      "id": "79d4f315-13bf-46fa-882a-49d9bf6f69fe",
+      "type": "upload",
+      "message": "Uploaded Draft v0.6 for internal review.",
+      "timestamp": "2026-03-03T13:31:10.959555+00:00",
+      "author": "Havard Vestbo"
+    }
+  ],
+  "supervisorNotes": [
+    {
+      "id": "d86a3498-4ceb-4ee7-bf13-e9a4639dca7a",
+      "message": "Focus Discussion on practical implications for sustainability KPIs.",
+      "timestamp": "2026-03-02T13:31:10.95957+00:00",
+      "author": "Dr. Ingrid Solheim",
+      "isPinned": true
+    },
+    {
+      "id": "6b19f46d-8d73-4f5f-b290-cf2aa8d6e2c4",
+      "message": "Keep Appendix A short; move details to supplementary material.",
+      "timestamp": "2026-02-27T13:31:10.959596+00:00",
+      "author": "Dr. Ingrid Solheim",
+      "isPinned": false
+    }
+  ],
+  "resources": [
+    {
+      "id": "3748c30a-9628-4f0b-b6bb-6dc97aa6d432",
+      "title": "Writing Checklist",
+      "type": "Template",
+      "url": "https://example.org/thesis-checklist",
+      "description": "Weekly checklist for draft quality reviews.",
+      "addedAt": "2026-02-26T13:31:10.959611+00:00"
+    },
+    {
+      "id": "e1eb994f-43bd-4c6d-9200-e0fc59601e53",
+      "title": "Sustainability KPI Reference",
+      "type": "Article",
+      "url": "https://example.org/sustainability-kpi",
+      "description": "Reference paper used in chapter 2.",
+      "addedAt": "2026-03-01T13:31:10.959638+00:00"
+    }
+  ],
+  "settings": {
+    "notificationsEnabled": false,
+    "weeklyWritingGoalHours": 18,
+    "reminderTime": "08:30",
+    "preferredView": "Tasks"
+  }
+}

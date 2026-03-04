@@ -1,6 +1,131 @@
 @Server_HostAddress = http://localhost:5199
 
-GET {{Server_HostAddress}}/weatherforecast/
+### Dashboard
+GET {{Server_HostAddress}}/api/thesis/dashboard
 Accept: application/json
 
-###
+### Metadata
+GET {{Server_HostAddress}}/api/thesis/metadata
+Accept: application/json
+
+### Update metadata
+PATCH {{Server_HostAddress}}/api/thesis/metadata
+Content-Type: application/json
+
+{
+  "title": "Adaptive Decision Support for Sustainable Construction Planning",
+  "studentName": "Havard Vestbo",
+  "supervisorName": "Dr. Ingrid Solheim",
+  "estimatedCompletionDate": "2026-12-18"
+}
+
+### Tasks
+GET {{Server_HostAddress}}/api/thesis/tasks
+Accept: application/json
+
+### Create task
+POST {{Server_HostAddress}}/api/thesis/tasks
+Content-Type: application/json
+
+{
+  "title": "Prepare appendix outline",
+  "description": "Draft appendix structure and checklist",
+  "dueDate": "2026-03-20",
+  "category": "Writing",
+  "isPriority": true
+}
+
+### Update task status (replace taskId)
+PATCH {{Server_HostAddress}}/api/thesis/tasks/{{taskId}}/status
+Content-Type: application/json
+
+{
+  "status": "Done"
+}
+
+### Delete task (replace taskId)
+DELETE {{Server_HostAddress}}/api/thesis/tasks/{{taskId}}
+
+### Milestones
+GET {{Server_HostAddress}}/api/thesis/milestones
+Accept: application/json
+
+### Create milestone
+POST {{Server_HostAddress}}/api/thesis/milestones
+Content-Type: application/json
+
+{
+  "title": "Submit full draft to supervisor",
+  "date": "2026-04-01",
+  "urgency": "high",
+  "status": "Planned"
+}
+
+### Update milestone (replace milestoneId)
+PATCH {{Server_HostAddress}}/api/thesis/milestones/{{milestoneId}}
+Content-Type: application/json
+
+{
+  "status": "Done"
+}
+
+### Delete milestone (replace milestoneId)
+DELETE {{Server_HostAddress}}/api/thesis/milestones/{{milestoneId}}
+
+### Supervisor notes
+GET {{Server_HostAddress}}/api/thesis/supervisor/notes
+Accept: application/json
+
+### Create supervisor note
+POST {{Server_HostAddress}}/api/thesis/supervisor/notes
+Content-Type: application/json
+
+{
+  "message": "Please tighten the conclusion framing around KPI outcomes.",
+  "author": "Dr. Ingrid Solheim",
+  "isPinned": true
+}
+
+### Resources
+GET {{Server_HostAddress}}/api/thesis/resources
+Accept: application/json
+
+### Create resource
+POST {{Server_HostAddress}}/api/thesis/resources
+Content-Type: application/json
+
+{
+  "title": "Final submission checklist",
+  "type": "Checklist",
+  "url": "https://example.org/final-checklist",
+  "description": "Submission quality checklist"
+}
+
+### Settings
+GET {{Server_HostAddress}}/api/thesis/settings
+Accept: application/json
+
+### Update settings
+PATCH {{Server_HostAddress}}/api/thesis/settings
+Content-Type: application/json
+
+{
+  "notificationsEnabled": true,
+  "weeklyWritingGoalHours": 16,
+  "reminderTime": "09:00",
+  "preferredView": "Dashboard"
+}
+
+### Upload draft
+POST {{Server_HostAddress}}/api/thesis/drafts
+Content-Type: application/json
+
+{
+  "fileName": "Draft_v1.0.pdf",
+  "version": "1.0",
+  "notes": "Ready for supervisor review"
+}
+
+### Activity
+GET {{Server_HostAddress}}/api/thesis/activity
+Accept: application/json
